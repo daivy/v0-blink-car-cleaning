@@ -1,0 +1,53 @@
+/*
+Theme Name: Blink Car Cleaning
+Description: Professional car detailing website theme for Blink
+Version: 1.0
+*/
+
+:root {
+  --primary: #0f98b4;
+  --primary-foreground: #ffffff;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #0ea5e9;
+  --card: #ffffff;
+  --border: #e2e8f0;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.border-primary {
+  border-color: var(--primary) !important;
+}
+.bg-muted {
+  background-color: var(--muted) !important;
+}
+.text-muted-foreground {
+  color: var(--muted-foreground) !important;
+}
+
+/* Custom WordPress specific styles */
+.wp-block-button__link {
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover {
+  background-color: var(--primary);
+  opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
